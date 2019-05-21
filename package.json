@@ -1,0 +1,27 @@
+{
+  "name": "allude.github.io",
+  "version": "0.0.0",
+  "description": "Jekyll",
+  "main": "_site/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/allude/allude.github.io.git"
+  },
+  "keywords": [
+    "github",
+    "pages"
+  ],
+  "author": "allude",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/allude/allude.github.io/issues"
+  },
+  "homepage": "https://allude.github.io",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1"
+  }
+}

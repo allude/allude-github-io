@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+    {% include head.html %}
+
+    <body>
+
+        {% include header.html %}
+
+        <div class="container" style="margin-top:60px;">
+            {{ content }}
+        </div>
+
+        {% include footer.html %}
+
+        <script src="{{ "js/jquery.min.js" | prepend: site.baseurl }}"></script>
+        <script src="{{ "js/bootstrap.bundle.min.js" | prepend: site.baseurl }}"></script>
+
+    </body>
+
+</html>

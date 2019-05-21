@@ -1,1 +1,16 @@
-theme: jekyll-theme-minimal
+# Site settings
+title: Allude
+description: Jekyll site
+url: "http://allude.github.io"
+github_username:  allude
+
+# Build settings
+markdown: kramdown
+permalink: title
+
+exclude:
+  - "node_modules"
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "Gruntfile.coffee"
+  - "package.json"
